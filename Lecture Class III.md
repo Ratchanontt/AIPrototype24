@@ -41,3 +41,18 @@ screen -R #กระโดดกลับเข้่าไปที่ screen
 ```
 - กด control A+D ออกจาก session
 - กด control A+K+y ออกและลบ session
+
+## 6. Github
+  - Save code on github
+  ```
+  git clone https://github.com/Ratchanontt/AIPrototype24.git
+  git add testcloudvm.py
+  git commit -m "test cloud server"
+  git push
+  ```
+  - Setting owner Github (ทำครั้งเดียว)
+  ```
+  git config --global user.name "Ratchanontt"
+  git config --global user.email "ratchanont.t@kkumail.com"
+  ```
+
