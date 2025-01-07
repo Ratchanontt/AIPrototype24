@@ -11,3 +11,6 @@ SC664401 Prototyping for Artificial Intelligence and Machine Learning System ก
 
 24/12/67
 - Lecture III (CloudVM)
+
+07/01/68
+- Lecture IV (Web page)
