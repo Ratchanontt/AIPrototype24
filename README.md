@@ -4,7 +4,7 @@ SC664401 Prototyping for Artificial Intelligence and Machine Learning System ก
 👨🏻‍🎓📚รัชชานนท์ ทิพย์พิมานพร Ratchanont Thippimanporn ID: 643020515-5
 
 02/12/67
-- Lecture I (Ubantu)
+- Lecture I (Ubantu) `Ubantu on windows (Windows Subsystem for Linux (WSL)`
 
 11/12/67
 - Lecture II (Virtual Machines)
