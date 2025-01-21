@@ -50,6 +50,10 @@ screen -R #กระโดดกลับเข้่าไปที่ screen
   git commit -m "test cloud server"
   git push
   ```
+  - Check Status
+  ```
+  git status
+  ```
   - Setting owner Github (ทำครั้งเดียว)
   ```
   git config --global user.name "Ratchanontt"
