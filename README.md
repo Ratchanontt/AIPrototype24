@@ -17,3 +17,6 @@ SC664401 Prototyping for Artificial Intelligence and Machine Learning System ก
 
 21/01/68
 - Lecture V (Environment Conda)
+
+19/02/68
+- Lecture VI (Web Service)
