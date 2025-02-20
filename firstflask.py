@@ -1,5 +1,7 @@
 from flask import Flask, render_template, request, render_template_string
-import random 
+import random
+import json, jsonify
+
 
 app = Flask(__name__)
 
@@ -317,7 +319,48 @@ def contact_page():
         </html>
         """
 
+##api
+
+# @app.route('/simpleAPI',methods=['POST'])
+# def web_service_API():
+
+#     payload = request.data.decode("utf-8")
+#     inmessage = json.loads(payload)
+
+#     print(inmessage)
+    
+#     json_data = json.dumps({'y': 'received!'})
+#     return json_data
+
+@app.route('/simpleAPI', methods=['POST'])
+def simpleAPI():
+    try:
+        # รับข้อมูลจาก request
+        payload = request.data.decode("utf-8")
+        inmessage = json.loads(payload)
+
+        # แสดงข้อมูลที่ได้รับใน log
+        print("\n[INFO] ข้อมูลที่ได้รับจากผู้ใช้:")
+        print(f"----------------------------")
+        print(f"ข้อความที่ได้รับ: {inmessage.get('msg')}")
+        print(f"ผู้ส่ง: {inmessage.get('ผู้ส่ง')}")
+        print(f"ผู้รับ: {inmessage.get('ผู้รับ')}")
+        print(f"IP ของผู้รับ: {inmessage.get('ip')}")
+        print(f"----------------------------\n")
+
+        # สร้างข้อมูลที่ต้องการส่งกลับ
+        json_data = json.dumps({'y': 'received!'})
+
+        # ส่งข้อมูลกลับไป
+        return json_data, 200  # คืนค่า HTTP Status 200 เพื่อบอกว่า request สำเร็จ
+
+    except Exception as e:
+        # ในกรณีเกิดข้อผิดพลาด
+        error_message = f"[ERROR] ข้อผิดพลาด: {str(e)}"
+        print(error_message)
+
+        # ส่งข้อผิดพลาดกลับไป
+        return jsonify({'error': 'เกิดข้อผิดพลาดในการประมวลผลข้อมูล'}), 400
 
 if __name__ == "__main__":  # run code
-    app.debug=True
-    app.run()
+    app.run(host='0.0.0.0',debug=True,port=5006)
