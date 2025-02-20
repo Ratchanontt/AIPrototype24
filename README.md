@@ -20,3 +20,7 @@ SC664401 Prototyping for Artificial Intelligence and Machine Learning System ก
 
 19/02/68
 - Lecture VI (Web Service)
+
+## Homework
+- HW1 Calculate how many days you have lived since your birth date. `myfirst.py`
+- HW2 Send messages to friends using the server. `firstflask.py & call_web_service.py`
