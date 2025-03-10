@@ -24,15 +24,15 @@
 - 1. Responsive web
   > เพิ่ม-ลด ขนาดของส่วนประกอบในหน้าเว็บ ตามเครื่องที่ใช้
 
-## Java Script
+## JavaScript
 
 # Back End 
 - ใช้ได้หลากหลายภาษา วิชานี้ใช้ Python เป็นหลัก
+
 ## Python
 ```
 - conda create --name {ชื่อ}
 - conda create -n myenv {name of packager}
 - conda activate {ชื่อ}
 - conda deactivate
-
 ```
