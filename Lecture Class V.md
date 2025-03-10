@@ -13,7 +13,7 @@ conda --version #ตรวจสอบว่าติดตั้งสำเร
 - conda activate {ชื่อ env} #เข้าใช้งาน
 - conda deactivate #เลิกใช้งาน
 - conda remove --name ai_project --all #ลบ Environment
-- $ conda install {ชื่อpackage}
+- conda install {ชื่อpackage}
 ```
 
 ## Install package
