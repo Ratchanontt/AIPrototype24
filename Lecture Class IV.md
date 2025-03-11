@@ -1,4 +1,4 @@
-# Web
+# Web Page
 ## การสร้างเว็บ มี 3 แบบ
 - 1. **Web page** no function, only for looking information
   > เป็น web ที่เราเอาข้อมูลของเราใส่เข้าไป เพื่อให้คนอื่นเข้ามาดูข้อมูลของเรา  
