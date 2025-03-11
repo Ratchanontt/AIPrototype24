@@ -385,7 +385,7 @@ print("Bye")
 # Web Service for Sending Messages
 > เป็น Web Service ที่สามารถส่งข้อความระหว่างผู้ใช้ได้ โดยประกอบไปด้วย 2 ส่วนหลัก:
 
-## 1. **สคริปต์ฝั่งผู้ใช้** [`call_web_service.py`](https://github.com/Ratchanontt/AIPrototype24/blob/main/call_web_service.py): 
+## 1. **สคริปต์ฝั่งผู้ใช้** [`call_web_service.py`](https://github.com/Ratchanontt/AIPrototype24/blob/main/call_web_service.py) 
 > ช่วยให้ผู้ใช้ป้อนข้อความและเลือกผู้รับเพื่อส่งข้อความ
 สคริปต์ฝั่งผู้ใช้จะติดต่อกับ API ฝั่งเซิร์ฟเวอร์เพื่อส่งข้อความ โดยมีขั้นตอนดังนี้:
 - ผู้ใช้จะป้อนข้อความที่ต้องการส่ง
@@ -409,7 +409,7 @@ myobj = {'msg':'Ratchanont'}
 x = requests.post(url, data = json.dumps(myobj))
 ```
 
-## 2. **API ฝั่งเซิร์ฟเวอร์** [`firstflask.py`](https://github.com/Ratchanontt/AIPrototype24/blob/main/firstflask.py): 
+## 2. **API ฝั่งเซิร์ฟเวอร์** [`firstflask.py`](https://github.com/Ratchanontt/AIPrototype24/blob/main/firstflask.py) 
 > รับข้อความจากผู้ใช้ บันทึกรายละเอียด และส่งคำตอบกลับไปยืนยันการรับข้อความ
 
 **Code**:
@@ -511,7 +511,7 @@ x = requests.post(url, data = json.dumps(myobj))
   <summary> HW1 Calculate how many days you have lived since birth. </summary> 
 👉 สามารถหาได้ด้วยว่าอีกกี่วันจะถึงวันเกิดของคุณ!
 
-[myfirstpy.py](https://github.com/Ratchanontt/AIPrototype24/blob/main/myfirstpy.py)
+[`myfirstpy.py`](https://github.com/Ratchanontt/AIPrototype24/blob/main/myfirstpy.py)
   ```python
 import argparse
 from datetime import datetime
