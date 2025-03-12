@@ -207,15 +207,6 @@ screen -R #กระโดดกลับเข้่าไปที่ screen
   <summary> Web page </summary>
 
 # Web
-## การสร้างเว็บ มี 3 แบบ
-- 1. **Web page** no function, only for looking information
-  > เป็น web ที่เราเอาข้อมูลของเราใส่เข้าไป เพื่อให้คนอื่นเข้ามาดูข้อมูลของเรา  
-- 2. **Web application** add server side project
-  > ** Server side script** (ใช้ในการคิดคำนวณผลลัพทธ์)  
-     >> Server side script เช่น Python (Flask package) : ทำให้ user run บน com ที่ไม่ต้องแรงมากได้เพราะมัน run บน  server และทำให้ code ของ dev ไม่หลุดไปไหน
-- 3. **Web service** Server side script only
-  > ใช้แค่ Server side script Python (Flask package)  เพราะไม่ได้ต้องการให้คนมาใช้
-  > เป็น Back end ล้วนๆ ไม่มี front end
 
 ## HTTP Methods
 ### GET คนเห็นแล้วเปิดได้เลย
@@ -288,7 +279,7 @@ conda --version #ตรวจสอบว่าติดตั้งสำเร
 #### Python Main Function 
 - [https://www.geeksforgeeks.org/python-main-function/](https://www.geeksforgeeks.org/python-main-function/)
 > Main Function ใช้ควบคุม flow ของ program โดยลำดับการทำงานจะทำตาม Main fc
-> ดังนั้น จึงจำเป็นต้องมี Main function เพื่อที่เวลาเริ่ม program จะได้รู้ว่าต้อง run อะไรก่อน โดยดูจาก main func
+> ดังนั้น จึงจำเป็นต้องมี Main function เพื่อที่เวลาเริ่ม program จะได้รู้ว่าต้อง run อะไรก่อน
 
 ```python
 # Python program to demonstrate 
