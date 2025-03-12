@@ -5,7 +5,7 @@ SC664401 Prototyping for Artificial Intelligence and Machine Learning System
 👨🏻‍🎓📚 รัชชานนท์ ทิพย์พิมานพร Ratchanont Thippimanporn ID: 643020515-5 📝
 
 # 📋 To Do In This Class ☑️
-- [x] Web Application [Click Me! to NCDs Listener GitHub](https://github.com/MOOwuttichai/NCDs_Listener)
+- [x] Web Application [Click Me! to Visit Web Application](http://20.191.157.167:5000) & [Code on GitHub](https://github.com/MOOwuttichai/NCDs_Listener) 
 - [x] Web Page [Click Me! to Visit NCDs Listener Web page](https://ratchanontt.github.io/NCDsListenerWebpage/)
 - [x] My own GitHub [This GitHub!](https://github.com/Ratchanontt/AIPrototype24/tree/main)
 
